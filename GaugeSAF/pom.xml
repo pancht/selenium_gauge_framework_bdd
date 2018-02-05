@@ -27,12 +27,12 @@
 			<version>3.5.1</version>
 		</dependency>
 		
-        <dependency>
+        <!-- <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -44,7 +44,7 @@
 
     <build>
         <plugins>
-            <plugin>
+           <!--  <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
@@ -52,7 +52,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
