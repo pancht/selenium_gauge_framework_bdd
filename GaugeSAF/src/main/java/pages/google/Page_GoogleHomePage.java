@@ -1,6 +1,5 @@
 package pages.google;
 
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -22,7 +21,7 @@ public class Page_GoogleHomePage extends BasePage {
 	}
 
 	public Page_GoogleSearchResult clickButton_Search() {
-		btnSearchButton.click();	  
+		btnSearchButton.click();	
 		
 		return new Page_GoogleSearchResult();
 	}

@@ -3,7 +3,6 @@ package pages.google;
 import com.thoughtworks.gauge.datastore.DataStore;
 import com.thoughtworks.gauge.datastore.DataStoreFactory;
 
-
 public abstract class BasePage {
     
     public void storeStringToScenarioDataStore(String key, String value) {
@@ -36,4 +35,3 @@ public abstract class BasePage {
         return (String) suiteStore.get(key);
     }
 }
-
