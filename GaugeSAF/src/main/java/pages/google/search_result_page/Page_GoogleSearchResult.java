@@ -18,7 +18,7 @@ public class Page_GoogleSearchResult extends BasePage {
 		 */
 		@FindBy(xpath="//div[@class='srg']/div[@class='g']")
 		List<WebElement> listSearchResultList;
-		
+		  
 		/************************************************
 		 * Define each search result structure
 		 ************************************************/
