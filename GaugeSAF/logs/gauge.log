@@ -1,0 +1,63 @@
+01:13:55.414 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+01:13:57.086 Checking updates...
+01:14:04.062 # Getting Started with Gauge
+01:14:04.064 ## Get Started
+01:14:04.068 * Open the Gauge homepage
+
+01:14:09.936 * Go to Gauge Get Started Page
+01:14:12.667 * Ensure installation instructions are available
+01:14:14.802 Plugin [Html Report] with pid [628] has exited
+01:14:14.902 Specifications:	1 executed	1 passed	0 failed	0 skipped
+01:14:14.902 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+01:14:14.902 
+Total time taken: 13.868s
+01:23:04.218 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+01:23:06.048 Checking updates...
+01:23:12.300 [ValidationError] C:\Users\DELL\git\selenium_gauge_framework_bdd\GaugeSAF\specs\Page_GoogleHomePage.spec:20 Step implementation not found => 'First link in search result should be "https://www.upwork.com/fl/erpanchdev"'
+01:23:16.758 # Page_GoogleHomePage
+01:23:16.767 ## Search text "Panchdev Chauhan Upwork"
+01:23:16.783 * Open google home page
+01:23:20.163 * Type "Panchdev Chauhan Upwork" in search field
+01:23:20.607 * Click google search button
+
+01:23:25.852 Plugin [Html Report] with pid [24124] has exited
+01:23:26.053 Specifications:	1 executed	1 passed	0 failed	0 skipped
+01:23:26.053 Scenarios:	1 executed	1 passed	0 failed	1 skipped
+01:23:26.053 
+Total time taken: 13.141s
+01:24:43.302 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+01:24:45.068 Checking updates...
+01:24:56.372 # Page_GoogleHomePage
+01:24:56.382 ## Search text "Panchdev Chauhan Upwork"
+01:24:56.392 * Open google home page
+01:24:58.569 * Type "Panchdev Chauhan Upwork" in search field
+01:24:59.804 * Click google search button
+
+01:25:01.690 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+01:25:01.693 * Open google home page
+01:25:02.644 * Type "Panchdev Chauhan Upwork" in search field
+01:25:02.989 * Click google search button
+01:25:04.053 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+01:25:07.536 Plugin [Html Report] with pid [23564] has exited
+01:25:07.738 Specifications:	1 executed	1 passed	0 failed	0 skipped
+01:25:07.738 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+01:25:07.738 
+Total time taken: 15.846s
+01:42:02.937 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+01:42:04.948 Checking updates...
+01:42:12.313 # Page_GoogleHomePage
+01:42:12.316 ## Search text "Panchdev Chauhan Upwork"
+01:42:12.320 * Open google home page
+01:42:14.756 * Type "Panchdev Chauhan Upwork" in search field
+01:42:15.020 * Click google search button
+
+01:42:16.435 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+01:42:16.440 * Open google home page
+01:42:17.298 * Type "Panchdev Chauhan Upwork" in search field
+01:42:17.644 * Click google search button
+01:42:18.550 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+01:42:21.822 Plugin [Html Report] with pid [24568] has exited
+01:42:21.936 Specifications:	1 executed	1 passed	0 failed	0 skipped
+01:42:21.936 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+01:42:21.936 
+Total time taken: 13.866s
