@@ -13,7 +13,6 @@ import pages.google.Page_GoogleHomePage;
 import pages.google.search_result_page.Page_GoogleSearchResult;
 import test_configurations.DriverFactory;
 
-
 public class Page_GoogleHomePageSpec {
 
 	private final WebDriver driver;
