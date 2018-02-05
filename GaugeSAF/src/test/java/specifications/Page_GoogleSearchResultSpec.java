@@ -21,7 +21,7 @@ public class Page_GoogleSearchResultSpec {
     }
 
 	
-	@Step("Check that first link in search result should be <upwork_profile_link>")
+	@Step("First link in search result should be <upwork_profile_link>")
     public void checkThatGivenLinkIsOnTopOfSearch(String sUpwork_Profile_Link) {
 		page_GoogleSearchResult = PageFactory.initElements(driver, Page_GoogleSearchResult.class);
 		WebElement first_search_result = page_GoogleSearchResult.get_SearchResults().get(0);

@@ -123,3 +123,17 @@ Total time taken: 17.501s
 02:07:09.179 Scenarios:	2 executed	2 passed	0 failed	0 skipped
 02:07:09.179 
 Total time taken: 15.039s
+02:55:55.570 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+02:55:57.134 Checking updates...
+02:55:59.183 [ValidationError] C:\Users\DELL\git\selenium_gauge_framework_bdd\GaugeSAF\specs\Page_GoogleHomePage.spec:20 Step implementation not found => 'First link in search result should be "https://www.upwork.com/fl/erpanchdev"'
+02:56:06.536 # Page_GoogleHomePage
+02:56:06.546 ## Search text "Panchdev Chauhan Upwork"
+02:56:06.571 * Open google home page
+02:56:08.184 * Type "Panchdev Chauhan Upwork" in search field
+02:56:08.602 * Click google search button
+
+02:56:13.825 Plugin [Html Report] with pid [924] has exited
+02:56:14.026 Specifications:	1 executed	1 passed	0 failed	0 skipped
+02:56:14.027 Scenarios:	1 executed	1 passed	0 failed	1 skipped
+02:56:14.027 
+Total time taken: 14.234s
