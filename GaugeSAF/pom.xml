@@ -62,7 +62,7 @@
                     <execution>
                         <phase>test</phase>
                         <configuration>
-                            <specsDir>specs</specsDir>
+                            <specsDir>GaugeSAF\specs</specsDir>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
