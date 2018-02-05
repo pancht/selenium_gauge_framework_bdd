@@ -6,7 +6,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import com.thoughtworks.gauge.*;
+import com.thoughtworks.gauge.AfterSuite;
+import com.thoughtworks.gauge.BeforeSuite;
 
 public class DriverFactory {
     private static final String FIREFOX = "firefox";

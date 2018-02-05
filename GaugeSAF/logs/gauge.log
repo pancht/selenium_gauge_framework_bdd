@@ -61,3 +61,65 @@ Total time taken: 15.846s
 01:42:21.936 Scenarios:	2 executed	2 passed	0 failed	0 skipped
 01:42:21.936 
 Total time taken: 13.866s
+02:06:05.518 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+02:06:07.284 Checking updates...
+02:06:19.089 # Page_GoogleHomePage
+02:06:19.102 ## Search text "Panchdev Chauhan Upwork"
+02:06:19.109 * Open google home page
+02:06:22.703 * Type "Panchdev Chauhan Upwork" in search field
+02:06:23.345 * Click google search button
+
+02:06:24.358 Failed Step: Click google search button
+02:06:24.358 Error Message: org.openqa.selenium.WebDriverException: unknown error: Element <input value="Google Search" aria-label="Google Search" name="btnK" type="submit" jsaction="sf.chk"> is not clickable at point (606, 411). Other element would receive the click: <input type="button" value="Google Search" class="lsb">
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'EINSTEIN', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DELL\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: c93849cdd21b1a19461808f1c0cfff87
+02:06:24.358 Specification: specs\Page_GoogleHomePage.spec:11
+02:06:24.359 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+02:06:24.361 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+02:06:24.363 * Open google home page
+02:06:25.091 * Type "Panchdev Chauhan Upwork" in search field
+02:06:25.395 * Click google search button
+02:06:27.763 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+02:06:31.631 Plugin [Html Report] with pid [20916] has exited
+02:06:31.931 Specifications:	1 executed	0 passed	1 failed	0 skipped
+02:06:31.931 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+02:06:31.932 
+Total time taken: 17.501s
+02:06:45.344 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+02:06:47.162 Checking updates...
+02:06:57.670 # Page_GoogleHomePage
+02:06:57.677 ## Search text "Panchdev Chauhan Upwork"
+02:06:57.687 * Open google home page
+02:07:00.027 * Type "Panchdev Chauhan Upwork" in search field
+02:07:01.552 * Click google search button
+
+02:07:02.732 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+02:07:02.740 * Open google home page
+02:07:03.719 * Type "Panchdev Chauhan Upwork" in search field
+02:07:04.325 * Click google search button
+02:07:05.415 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+02:07:08.977 Plugin [Html Report] with pid [22648] has exited
+02:07:09.179 Specifications:	1 executed	1 passed	0 failed	0 skipped
+02:07:09.179 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+02:07:09.179 
+Total time taken: 15.039s

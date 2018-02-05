@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.thoughtworks.gauge.Step;
 
-import pages.google.Page_GoogleHomePage;
 import pages.google.search_result_page.Page_GoogleSearchResult;
 import test_configurations.DriverFactory;
 
