@@ -2,6 +2,7 @@
 	"Command": [
 		"gauge",
 		"run",
-		"specs"
+		"--dir=C:\\Users\\DELL\\git\\selenium_gauge_framework_bdd\\GaugeSAF",
+		"C:\\Users\\DELL\\git\\selenium_gauge_framework_bdd\\GaugeSAF\\specs"
 	]
 }

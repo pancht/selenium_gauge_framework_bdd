@@ -237,3 +237,55 @@ Total time taken: 18.792s
 10:25:38.361 Runner connection error: Runner with pid 17304 quit unexpectedly(exit status 1).
 10:25:38.361 Error while killing runner: invalid argument
 10:25:38.361 Failed to start gauge API: Runner with pid 17304 quit unexpectedly(exit status 1).
+11:07:57.477 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:07:57.484 Failed to load env. local environment does not exist
+11:08:28.163 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:08:28.165 Failed to load env. local environment does not exist
+11:08:40.929 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:08:40.936 Failed to load env. local environment does not exist
+11:10:37.527 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:10:37.530 Failed to load env. local environment does not exist
+11:42:25.410 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:42:25.413 Failed to load env. local environment does not exist
+11:44:46.505 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:44:46.508 Failed to load env. local environment does not exist
+11:45:03.831 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:45:03.833 Failed to load env. local environment does not exist
+11:46:19.550 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:46:19.552 Failed to load env. local environment does not exist
+11:48:21.880 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:48:23.811 Checking updates...
+11:48:37.765 # Page_GoogleHomePage
+11:48:37.771 ## Search text "Panchdev Chauhan Upwork"
+11:48:37.779 * Open google home page
+11:48:40.887 * Type "Panchdev Chauhan Upwork" in search field
+11:48:41.427 * Click google search button
+
+11:48:42.976 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+11:48:42.980 * Open google home page
+11:48:43.593 * Type "Panchdev Chauhan Upwork" in search field
+11:48:43.859 * Click google search button
+11:48:44.737 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+11:48:46.125 Plugin [Html Report] with pid [13880] has exited
+11:48:46.327 Specifications:	1 executed	1 passed	0 failed	0 skipped
+11:48:46.327 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+11:48:46.328 
+Total time taken: 15.561s
+11:54:50.563 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+11:54:52.194 Checking updates...
+11:55:00.342 # Page_GoogleHomePage
+11:55:00.349 ## Search text "Panchdev Chauhan Upwork"
+11:55:00.357 * Open google home page
+11:55:02.445 * Type "Panchdev Chauhan Upwork" in search field
+11:55:02.898 * Click google search button
+
+11:55:04.496 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+11:55:04.509 * Open google home page
+11:55:05.355 * Type "Panchdev Chauhan Upwork" in search field
+11:55:05.793 * Click google search button
+11:55:08.608 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+11:55:11.721 Plugin [Html Report] with pid [5096] has exited
+11:55:11.822 Specifications:	1 executed	1 passed	0 failed	0 skipped
+11:55:11.822 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+11:55:11.822 
+Total time taken: 17.175s

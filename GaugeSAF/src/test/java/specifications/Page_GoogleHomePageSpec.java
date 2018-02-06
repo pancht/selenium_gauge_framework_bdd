@@ -36,6 +36,7 @@ public class Page_GoogleHomePageSpec {
 
     @Step("Type <sSearchText> in search field")
     public void typeSearchTextInSearchField(String sSearchText) {
+    	
         page_GoogleHomePage.typeSearchText(sSearchText);
     }
     

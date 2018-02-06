@@ -1,10 +1,15 @@
 package test_configurations;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.thoughtworks.gauge.AfterSuite;
 import com.thoughtworks.gauge.BeforeSuite;
@@ -23,6 +28,9 @@ public class DriverFactory {
     public void Setup() {
         // Uses chrome driver by default
         String browser = System.getenv("BROWSER");
+        String gridHubUrl = System.getenv("GridHubUrl");
+        
+        DesiredCapabilities capability = new DesiredCapabilities();
         
         //System.out.println(">>>>>>>>>>>>>>>>>>>" + browser + "<<<<<<<<<<<<<<<<<<<<<");
         
@@ -34,19 +42,40 @@ public class DriverFactory {
             //FirefoxDriverManager.getInstance().setup();
         	//System.out.println(">>>>>>>>>>>>>>>>>>>Firefox<<<<<<<<<<<<<<<<<<<<<");
         	
-            driver = new FirefoxDriver();
+            //driver = new FirefoxDriver();
+        	
+        	capability = DesiredCapabilities.firefox();
+
+			capability.setCapability("marionette", true);
+			
         } else if (browser.toLowerCase().equals(IE)) {
             //InternetExplorerDriverManager.getInstance().setup();
         	//System.out.println(">>>>>>>>>>>>>>>>>>>Internet Explorer<<<<<<<<<<<<<<<<<<<<<");
         	
-            driver = new InternetExplorerDriver();
+        	capability = DesiredCapabilities.internetExplorer();
+        	
+        	
+            //driver = new InternetExplorerDriver();
         } else {
            // ChromeDriverManager.getInstance().setup();
         	/*System.out.println(">>>>>>>>>>>>>>>>>>>INSIDE CHROME<<<<<<<<<<<<<<<<<<<<<");
         	System.setProperty("webdriver.chrome.driver", "C:\\testing\\chromedriver.exe");*/
-        	ChromeOptions chromeOptions = getChromeOptions();
-            driver = new ChromeDriver(chromeOptions);
+        	capability = DesiredCapabilities.chrome();
+
+			ChromeOptions chromeOptions = getChromeOptions();
+
+			capability.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+			
+            //driver = new ChromeDriver(chromeOptions);
+            
+            
         }
+        
+        try {
+			driver = new RemoteWebDriver(new URL(gridHubUrl), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
     }
 
     @AfterSuite
