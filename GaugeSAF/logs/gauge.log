@@ -137,3 +137,25 @@ Total time taken: 15.039s
 02:56:14.027 Scenarios:	1 executed	1 passed	0 failed	1 skipped
 02:56:14.027 
 Total time taken: 14.234s
+08:46:24.662 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+08:46:26.760 Checking updates...
+08:46:27.073 No specifications found in C:\Users\DELL\git\selenium_gauge_framework_bdd\GaugeSAF\GaugeSAF\specs.
+08:46:31.099 Killing runner with PID:22356 forcefully
+08:47:20.436 Gauge Install ID: 9ccec89d-e8cb-42ca-a4f3-b71e019a2200
+08:47:22.237 Checking updates...
+08:47:37.478 # Page_GoogleHomePage
+08:47:37.488 ## Search text "Panchdev Chauhan Upwork"
+08:47:37.494 * Open google home page
+08:47:40.676 * Type "Panchdev Chauhan Upwork" in search field
+08:47:41.041 * Click google search button
+
+08:47:42.361 ## Search text "Panchdev Chauhan QA Specialist Upwork" and verify that first search result link is "https://www.upwork.com/fl/erpanchdev"
+08:47:42.363 * Open google home page
+08:47:43.552 * Type "Panchdev Chauhan Upwork" in search field
+08:47:44.679 * Click google search button
+08:47:46.191 * First link in search result should be "https://www.upwork.com/fl/erpanchdev"
+08:47:49.968 Plugin [Html Report] with pid [8028] has exited
+08:47:50.169 Specifications:	1 executed	1 passed	0 failed	0 skipped
+08:47:50.169 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+08:47:50.169 
+Total time taken: 21.038s
