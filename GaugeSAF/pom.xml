@@ -57,6 +57,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<compilerReuseStrategy>alwaysNew</compilerReuseStrategy>
+					<useIncrementalCompilation>false</useIncrementalCompilation>
 				</configuration>
 			</plugin>
 			<plugin>
