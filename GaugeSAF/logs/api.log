@@ -68,3 +68,11 @@
 08:50:45.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click google search button" parameterizedStepValue:"Click google search button" > > 
 08:50:45.079 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"First link in search result should be <upwork_profile_link>" > 
 08:50:45.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"First link in search result should be {}" parameterizedStepValue:"First link in search result should be <upwork_profile_link>" parameters:"upwork_profile_link" > > 
+09:23:42.464 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type <sSearchText> in search field" > 
+09:23:42.465 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in search field" parameterizedStepValue:"Type <sSearchText> in search field" parameters:"sSearchText" > > 
+09:23:42.490 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open google home page" > 
+09:23:42.490 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open google home page" parameterizedStepValue:"Open google home page" > > 
+09:23:42.491 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click google search button" > 
+09:23:42.491 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click google search button" parameterizedStepValue:"Click google search button" > > 
+09:23:42.491 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"First link in search result should be <upwork_profile_link>" > 
+09:23:42.492 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"First link in search result should be {}" parameterizedStepValue:"First link in search result should be <upwork_profile_link>" parameters:"upwork_profile_link" > > 
