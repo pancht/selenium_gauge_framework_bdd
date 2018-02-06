@@ -52,3 +52,19 @@
 02:55:59.101 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click google search button" parameterizedStepValue:"Click google search button" > > 
 02:55:59.102 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check that first link in search result should be <upwork_profile_link>" > 
 02:55:59.102 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check that first link in search result should be {}" parameterizedStepValue:"Check that first link in search result should be <upwork_profile_link>" parameters:"upwork_profile_link" > > 
+08:47:28.300 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type <sSearchText> in search field" > 
+08:47:28.303 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in search field" parameterizedStepValue:"Type <sSearchText> in search field" parameters:"sSearchText" > > 
+08:47:28.325 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open google home page" > 
+08:47:28.326 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open google home page" parameterizedStepValue:"Open google home page" > > 
+08:47:28.326 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click google search button" > 
+08:47:28.326 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click google search button" parameterizedStepValue:"Click google search button" > > 
+08:47:28.327 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"First link in search result should be <upwork_profile_link>" > 
+08:47:28.327 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"First link in search result should be {}" parameterizedStepValue:"First link in search result should be <upwork_profile_link>" parameters:"upwork_profile_link" > > 
+08:50:45.050 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type <sSearchText> in search field" > 
+08:50:45.051 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in search field" parameterizedStepValue:"Type <sSearchText> in search field" parameters:"sSearchText" > > 
+08:50:45.076 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open google home page" > 
+08:50:45.076 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open google home page" parameterizedStepValue:"Open google home page" > > 
+08:50:45.078 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click google search button" > 
+08:50:45.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click google search button" parameterizedStepValue:"Click google search button" > > 
+08:50:45.079 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"First link in search result should be <upwork_profile_link>" > 
+08:50:45.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"First link in search result should be {}" parameterizedStepValue:"First link in search result should be <upwork_profile_link>" parameters:"upwork_profile_link" > > 

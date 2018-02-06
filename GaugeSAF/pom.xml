@@ -44,7 +44,7 @@
 
     <build>
         <plugins>
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
@@ -54,7 +54,7 @@
                     <compilerReuseStrategy>alwaysNew</compilerReuseStrategy>
                 </configuration>
            
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
